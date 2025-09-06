@@ -1,0 +1,58 @@
+[
+  {
+    "title": "El Principito",
+    "author": "Antoine de Saint-Exupéry",
+    "isbn": "978-607-07-1234-5",
+    "ratings": [],
+    "_class": "com.example.bibliotecaIngSoftII.model.Book"
+  },
+  {
+    "title": "Cien Años de Soledad",
+    "author": "Gabriel García Márquez",
+    "isbn": "978-958-04-1761-2",
+    "ratings": [],
+    "_class": "com.example.bibliotecaIngSoftII.model.Book"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "isbn": "978-0451524935",
+    "ratings": [],
+    "_class": "com.example.bibliotecaIngSoftII.model.Book"
+  },
+  {
+    "title": "Don Quijote de la Mancha",
+    "author": "Miguel de Cervantes",
+    "isbn": "978-8491050293",
+    "ratings": [],
+    "_class": "com.example.bibliotecaIngSoftII.model.Book"
+  },
+  {
+    "title": "La Sombra del Viento",
+    "author": "Carlos Ruiz Zafón",
+    "isbn": "978-8408050370",
+    "ratings": [],
+    "_class": "com.example.bibliotecaIngSoftII.model.Book"
+  },
+  {
+    "title": "El Hobbit",
+    "author": "J.R.R. Tolkien",
+    "isbn": "978-0547928227",
+    "ratings": [],
+    "_class": "com.example.bibliotecaIngSoftII.model.Book"
+  },
+  {
+    "title": "Orgullo y Prejuicio",
+    "author": "Jane Austen",
+    "isbn": "978-1503290563",
+    "ratings": [],
+    "_class": "com.example.bibliotecaIngSoftII.model.Book"
+  },
+  {
+    "title": "Harry Potter y la Piedra Filosofal",
+    "author": "J.K. Rowling",
+    "isbn": "978-0545582889",
+    "ratings": [],
+    "_class": "com.example.bibliotecaIngSoftII.model.Book"
+  }
+]

@@ -49,10 +49,13 @@ public class BookController {
             description = "Permite asignar una calificación (1 a 5) a un libro. "
                     + "El libro no necesita haber sido comprado.")
     @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Libro actualizado con la calificación")
+            @ApiResponse(responseCode = "200", description = "Libro actualizado con la calificación"),
+            @ApiResponse(responseCode = "400", description = "Calificación inválida, debe estar entre 1 y 5"),
+            @ApiResponse(responseCode = "404", description = "Libro no encontrado")
     })
     @PostMapping("/{bookId}/rate")
     public Book rateBook(@PathVariable String bookId, @RequestParam int rating) {
         return bookService.rateBook(bookId, rating);
     }
+
 }
